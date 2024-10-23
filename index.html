@@ -1,38 +1,86 @@
-<!DOCTYPE html>
-<html lang=“ja”>
+@charset "utf-8";
 
-<head>
-<meta charset=“UFT-8”>
-<link rel="stylesheet" href="https://weds-241120.github.io/invitation/style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet">
-</head>
+.fs-notosans {font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;}
 
 
 
 
-<body>
-<div class="wap-kari">
+.wap-kari {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto 0;
+}
+
+.mainvisual {
+  width: 60%;
+  margin: 0 auto;
+}
+.txt {
+  font-weight: 400;
+  text-align: center;
+   line-height: 1.8;
+  font-size: 1.2rem;
+  margin: 0 auto 0;
+  color: #333;
+ }
 
 
-<div class="mainvisual">
-<img src="https://weds-241120.github.io/invitation/info-241120-top.png">
-</div>
 
-<div class="txt fs-notosans">
-当日はお気をつけてお越しください。<br>
-お会いできることを楽しみにしております。
-</div>
+.keyvisual {
+  position: relative !important;
+}
+.keyvisual_scroll {
+  width: 30%;
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 17% !important;
+  z-index: -1 !important;
+}
+.keyvisual_scroll-circle {
+  height: auto !important;
+  width: 100% !important;
+  animation: rotate 5s linear infinite !important;
+}
 
 
-<div class="keyvisual">
-<div class="keyvisual_scroll">
-<img class="keyvisual_scroll-circle" src="https://cdn.shopify.com/s/files/1/0594/5966/6020/files/240122_circle-txt7.png">
-</div>
-</div>
-</div><!-- wap-kari -->
 
 
-</body>
-</html>
+/*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+  @media (max-width: 1024px) ↓↓↓
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*/
+@media screen and (max-width: 1024px) {
+
+.wap-kari {
+  width: 100% !important;
+  box-sizing:border-box;
+}
+}
+
+
+/*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+  @media (max-width: 600px) ↓↓↓
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*/
+@media screen and (max-width: 600px){
+
+
+.wap-kari {
+  width: 100% !important;
+  box-sizing:border-box;
+}
+
+.mainvisual {
+  width: 100%;
+  margin: 0 auto;
+}
+.txt {
+  font-weight: 500;
+  text-align: justify;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  margin: 0 auto 10%;
+  color: #333;
+ }
+
+
+}
