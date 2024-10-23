@@ -72,6 +72,7 @@ html, body {}
 }
 
 .cont-block .pic-box img {
+  width: 30%;
   animation: rotation 4s linear infinite !important;
 }
 /* 回転アニメーション */
