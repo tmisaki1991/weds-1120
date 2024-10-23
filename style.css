@@ -2,6 +2,14 @@
 
 .fs-notosans {font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;}
 
+
+
+
+
+.mainvisual {
+  width: 60%;
+  margin: 0 auto;
+}
 .txt {
   font-weight: 400;
   text-align: center;
@@ -27,7 +35,7 @@
 .keyvisual_scroll-circle {
   height: auto;
   width: 100%;
-  animation: rotate 5s linear infinite !important;
+  animation: rotate 5s linear infinite;
 }
 
 
@@ -37,6 +45,12 @@
 *=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*/
 @media screen and (max-width: 600px){
 
+
+
+.mainvisual {
+  width: 100%;
+  margin: 0 auto;
+}
 .txt {
   font-weight: 500;
   text-align: justify;
