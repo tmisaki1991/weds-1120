@@ -47,7 +47,7 @@ html, body {}
 .cont-block .desc-box {
   width: 80%;
   margin: 0 auto;
-  padding: 0 0 0 8%;
+  padding: 0;
 }
 .time {
  font-size: 0.7rem;
@@ -72,8 +72,8 @@ html, body {}
 }
 
 .cont-block .pic-box img {
-  width: 30%;
-  animation: rotation 4s linear infinite !important;
+  width: 40%;
+  animation: rotation 10s linear infinite !important;
 }
 /* 回転アニメーション */
 @keyframes rotation {
