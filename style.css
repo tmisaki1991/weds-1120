@@ -2,14 +2,11 @@
 
 .fs-notosans {font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;}
 
-html {
-	font-size: 100%;
-}
-body {
-	background-color: #999;
-}
+html {}
+body {}
+
 .container {
-  max-width: 1000px;
+  max-width: 1000px !important;
   margin: 0 auto;
 }
 
