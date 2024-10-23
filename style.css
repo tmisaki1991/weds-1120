@@ -15,6 +15,63 @@ html, body {}
 .mainvisual img {
   width: 100%;
 }
+
+
+
+
+.flx-row {
+  flex-direction: row;
+}
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.cont-block {
+  max-width: 1000px;
+  margin: 0 auto 10%;
+  padding: 0;
+}
+.col_box {
+  width: 90%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 10% auto 0;
+}
+.cont-block .pic-box {
+  width: 20%;
+  margin: 0 auto;
+  padding: 0;
+}
+.cont-block .desc-box {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 0 0 8%;
+}
+.time {
+ font-size: 0.7rem;
+ font-weight: 500;
+ color: #111;
+ text-align: left;
+ line-height: 2.3;
+}
+.event {
+ font-size: 1.5rem;
+ font-weight: 500;
+ color: #111;
+ text-align: left;
+ line-height: 2.3;
+}
+.event-more {
+ font-size: 0.5rem;
+ font-weight: 500;
+ color: #111;
+ text-align: left;
+ line-height: 2.3;
+}
+
+
+
 .txt {
   font-weight: 400;
   text-align: center;
