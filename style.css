@@ -49,25 +49,28 @@ html, body {}
   margin: 0 auto;
   padding: 0;
 }
+.cont-block .desc-box .left {
+  text-align: left;
+}
+.cont-block .desc-box .right {
+  text-align: right;
+}
 .time {
  font-size: 0.7rem;
  font-weight: 500;
  color: #111;
- text-align: left;
  line-height: 2.3;
 }
 .event {
  font-size: 1.5rem;
  font-weight: 500;
  color: #111;
- text-align: left;
  line-height: 2.3;
 }
 .event-more {
  font-size: 0.5rem;
  font-weight: 500;
  color: #111;
- text-align: left;
  line-height: 2.3;
 }
 
