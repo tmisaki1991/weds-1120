@@ -37,11 +37,24 @@ html, body {}
   display: flex;
   justify-content: space-between;
   margin: 10% auto 0;
+  align-items: center;
 }
 .cont-block .pic-box {
   width: 20%;
   margin: 0 auto;
   padding: 0;
+}
+.cont-block .pic-box img {
+  animation: rotation 4s linear infinite;
+}
+/* 回転アニメーション */
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 .cont-block .desc-box {
   width: 80%;
@@ -69,6 +82,8 @@ html, body {}
  text-align: left;
  line-height: 2.3;
 }
+
+
 
 
 
