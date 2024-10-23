@@ -27,20 +27,20 @@ html, body {}
 
 
 .keyvisual {
-  position: relative !important;
+  position: relative;
 }
 .keyvisual_scroll {
   width: 30%;
-  position: absolute !important;
-  top: 0 !important;
-  bottom: 0 !important;
-  left: 17% !important;
-  z-index: -1 !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 17%;
+  z-index: -1;
 }
 .keyvisual_scroll-circle {
-  height: auto !important;
-  width: 100% !important;
-  animation: rotate 5s linear infinite !important;
+  height: auto;
+  width: 100%;
+  animation: rotate 5s linear infinite;
 }
 
 
