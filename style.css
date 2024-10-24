@@ -69,7 +69,7 @@ html, body {}
 }
 .t-location .low-2 {
   font-size: 1.5rem;
-  margin-left: 6px;
+  margin-left: -6px;
 }
 
 
