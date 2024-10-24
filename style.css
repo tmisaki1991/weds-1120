@@ -132,9 +132,11 @@ html, body {}
  }
  .main-ttl::after {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  transform: translateX(-50%);
+  top: -27%;
+  left: 50%;
   z-index: -1;
+  content: 'Timeline';
   font-size: 2.5rem;
   font-weight: 400;
   text-align: center;
