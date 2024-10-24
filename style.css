@@ -92,7 +92,7 @@ html, body {}
   max-width: 1000px;
   width: 60%;
   height: auto;
-  margin: 2% auto 5%;
+  margin: 3% auto 5%;
 }
 .map iframe {
   position: absolute;
