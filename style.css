@@ -130,14 +130,14 @@ html, body {
   margin: 0 auto;
   text-align: center;
 }
-.main-ttl {
+.wt-ttl {
   font-size: 3.5rem;
   font-weight: 400;
   text-align: center;
   color: #111;
   position: relative;
  }
-.main-ttl::after {
+.wt-ttl::after {
   position: absolute;
   transform: translateX(-50%);
   top: 0;
@@ -151,7 +151,7 @@ html, body {
   font-family: "carol-gothic", sans-serif;
   mix-blend-mode: multiply;
  }
-.sub-ttl {
+.deco-ttl {
   display: inline-block;
   font-size: 0.6rem;
   letter-spacing: 0.05em;
@@ -239,6 +239,31 @@ html, body {
   }
 }
 
+
+
+
+
+.dp-area {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.dp-ttl {
+  font-size: 3.5rem;
+  font-weight: 400;
+  text-align: center;
+  color: #111;
+  position: relative;
+ }
+.event-ttl {
+  display: inline-block;
+  font-size: 0.6rem;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  text-align: left;
+  color: #2eb2e8;
+  margin: 0 auto 10px;
+}
 
 
 
