@@ -130,14 +130,14 @@ html, body {
   margin: 0 auto;
   text-align: center;
 }
-.wt-ttl {
+.wt-area .wt-ttl {
   font-size: 3.5rem;
   font-weight: 400;
   text-align: center;
   color: #111;
   position: relative;
  }
-.wt-ttl::after {
+.wt-area .wt-ttl::after {
   position: absolute;
   transform: translateX(-50%);
   top: 0;
@@ -151,7 +151,7 @@ html, body {
   font-family: "carol-gothic", sans-serif;
   mix-blend-mode: multiply;
  }
-.deco-ttl {
+.wt-area .deco-ttl {
   display: inline-block;
   font-size: 0.6rem;
   letter-spacing: 0.05em;
@@ -245,17 +245,17 @@ html, body {
 
 .dp-area {
   display: block;
-  margin: 0 auto;
+  margin: 50px auto 0;
   text-align: center;
 }
-.dp-ttl {
+.dp-area .dp-ttl {
   font-size: 3.5rem;
   font-weight: 400;
   text-align: center;
   color: #111;
   position: relative;
  }
-.event-ttl {
+.dp-area .event-ttl {
   display: inline-block;
   font-size: 0.6rem;
   letter-spacing: 0.05em;
@@ -266,7 +266,43 @@ html, body {
 }
 
 
-
+.details {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.details .check-ttl-01 {
+  display: inline-block;
+  font-size: 1.2rem;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  text-align: left;
+  color: #111;
+}
+.details p {
+  display: inline-block;
+  font-size: 1.0rem;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  text-align: left;
+  color: #111;
+}
+.details p span {
+  display: inline-block;
+  font-size: 1.0rem;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  text-align: left;
+  color: #111;
+}
+.details p .thin {
+  display: inline-block;
+  font-size: 1.0rem;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  text-align: left;
+  color: #999;
+}
 
 
 
