@@ -128,15 +128,16 @@ html, body {
 .wt-area {
   display: block;
   margin: 0 auto;
+  text-align: center;
 }
-.wt-area .main-ttl {
+.main-ttl {
   font-size: 3.5rem;
   font-weight: 400;
   text-align: center;
   color: #111;
   position: relative;
  }
-  .wt-area .main-ttl::after {
+.main-ttl::after {
   position: absolute;
   transform: translateX(-50%);
   top: 0;
@@ -150,12 +151,14 @@ html, body {
   font-family: "carol-gothic", sans-serif;
   mix-blend-mode: multiply;
  }
- .wt-area .sub-ttl {
+.sub-ttl {
+  display: inline-block;
   font-size: 0.6rem;
   letter-spacing: 0.05em;
   font-weight: 400;
   text-align: left;
   color: #111;
+  margin: 0 auto 10px;
 }
 
 
