@@ -146,18 +146,11 @@ html, body {
   font-family: "carol-gothic", sans-serif;
   mix-blend-mode: multiply;
  }
- .sub-ttl-1 {
-  font-size: 0.8rem;
+ .sub-ttl {
+  font-size: 0.6rem;
   letter-spacing: 0.05em;
   font-weight: 400;
   text-align: left;
-  color: #111;
-}
- .sub-ttl-2 {
-  font-size: 0.8rem;
-  letter-spacing: 0.05em;
-  font-weight: 400;
-  text-align: right;
   color: #111;
 }
 
@@ -196,11 +189,11 @@ html, body {
 }
 .cont-block .desc-box .left {
   text-align: left;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .cont-block .desc-box .right {
   text-align: right;
-  margin-right: 30px;
+  margin-right: 0;
 }
 .time {
  font-size: 1.2rem;
