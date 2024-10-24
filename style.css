@@ -28,7 +28,8 @@ html, body {}
   width: 1000px;
 }
 .mainvisual img {
-  width: 100%;
+  width: 40%;
+  margin: 0 auto;
 }
 
 
