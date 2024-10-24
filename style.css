@@ -9,14 +9,16 @@
 .fs-Carol {font-family: "carol-gothic", sans-serif;}
 
 
-html, body {}
+html, body {
+	width: 100%;
+	margin: 0;
+}
 
 .pc {display: block;}
 .sp {display: none;}
 
 .container {
-  max-width: 1000px !important;
-  margin: 0 auto;
+  width: 100%;
 }
 
 
@@ -25,7 +27,6 @@ html, body {}
 
 
 .mainvisual {
-  width: 1000px;
 }
 .mainvisual img {
   width: 40%;
@@ -35,7 +36,7 @@ html, body {}
 
 .date-and-loc {
   display: block;
-  margin: 10% auto 0;
+  margin: 0 auto;
   text-align: center;
   line-height: 1.3;
 }
@@ -78,7 +79,8 @@ html, body {}
 }
 .t-adress {
   display: inline-block;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
   font-weight: 400;
   text-align: left;
   margin: 10px 0 0 -122px;
@@ -91,7 +93,7 @@ html, body {}
   position: relative;
   aspect-ratio: 16 / 9;
   max-width: 1000px;
-  width: 60%;
+  width: 40%;
   height: auto;
   margin: 3% auto 5%;
 }
@@ -111,7 +113,7 @@ html, body {}
   font-weight: 400;
   text-align: center;
   line-height: 1.5;
-  margin: 0 auto 0;
+  margin: 0 auto 10%;
   color: #111;
  }
 
@@ -133,11 +135,11 @@ html, body {}
  .main-ttl::after {
   position: absolute;
   transform: translateX(-50%);
-  top: -27%;
+  top: 0;
   left: 50%;
   z-index: -1;
   content: 'Timeline';
-  font-size: 2.5rem;
+  font-size: 5.5rem;
   font-weight: 400;
   text-align: center;
   color: #2eb2e8;
@@ -154,16 +156,17 @@ html, body {}
 }
 
 .cont-block {
-  max-width: 1000px;
-  margin: 10% auto;
-  padding: 0;
+  margin: 26px auto 0;
+  background: #2eb2e8;
+  padding: 40px;
 }
 .col_box {
-  width: 100%;
+  width: 60%;
+  max-width: 1000px;
   position: relative;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto 50px;
+  margin: 0 auto 30px;
   align-items: center;
 }
 .cont-block .pic-box {
