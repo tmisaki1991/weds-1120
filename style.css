@@ -31,15 +31,15 @@ html, body {}
 
 .cont-block {
   max-width: 1000px;
-  margin: 0 auto 10%;
+  margin: 10% auto;
   padding: 0;
 }
 .col_box {
-  width: 60%;
+  width: 100%;
   position: relative;
   display: flex;
   justify-content: space-between;
-  margin: 10% auto 0;
+  margin: 0 auto 50px;
   align-items: center;
 }
 .cont-block .pic-box {
@@ -54,38 +54,38 @@ html, body {}
 }
 .cont-block .desc-box .left {
   text-align: left;
-  margin-left: 10%;
+  margin-left: 10px;
 }
 .cont-block .desc-box .right {
   text-align: right;
-  margin-right: 5%;
+  margin-right: 30px;
 }
 .time {
- font-size: 1.0rem;
+ font-size: 1.2rem;
  letter-spacing: 0.01em;
  font-weight: 400;
  color: #111;
- margin: 0 auto 4%;
+ margin: 0 auto 10px;
 }
 .event {
- font-size: 2.5rem;
+ font-size: 2.8rem;
  letter-spacing: 0.05em;
  font-weight: 400;
  color: #111;
  font-variation-settings: "opsz" 30, "wght" 400;
- margin: 0 auto 4%;
+ margin: 0 auto 10px;
 }
 .event-more {
  font-size: 0.9rem;
- line-height: 1.4;
+ line-height: 1.5;
  font-weight: 500;
  color: #111;
  margin: 0;
 }
 
 .cont-block .pic-box img {
-  width: 40%;
-  animation: rotation 10s linear infinite !important;
+  width: 25%;
+  animation: rotation 70s linear infinite !important;
   margin-left: 50px;
 }
 /* 回転アニメーション */
