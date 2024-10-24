@@ -32,7 +32,7 @@ html, body {}
   padding: 0;
 }
 .col_box {
-  width: 90%;
+  width: 60%;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -51,32 +51,35 @@ html, body {}
 }
 .cont-block .desc-box .left {
   text-align: left;
+  margin-left: 10%;
 }
 .cont-block .desc-box .right {
   text-align: right;
+  margin-right: 5%;
 }
 .time {
  font-size: 0.7rem;
  font-weight: 500;
  color: #111;
- line-height: 2.3;
+ margin: 0;
 }
 .event {
  font-size: 1.5rem;
  font-weight: 500;
  color: #111;
- line-height: 2.3;
+ margin: 0;
 }
 .event-more {
  font-size: 0.5rem;
  font-weight: 500;
  color: #111;
- line-height: 2.3;
+ margin: 0;
 }
 
 .cont-block .pic-box img {
   width: 40%;
   animation: rotation 10s linear infinite !important;
+  margin-left: 50px;
 }
 /* 回転アニメーション */
 @keyframes rotation {
