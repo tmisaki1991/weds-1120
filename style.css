@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .fs-notosans {font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;}
-.fs-Bask {font-family: "baskerville-urw", serif;}
+.fs-Bodoni {font-family: "bodoni-moda-variable", sans-serif;}
 
 
 html, body {}
@@ -66,8 +66,9 @@ html, body {}
  margin: 0;
 }
 .event {
- font-size: 1.5rem;
- font-weight: 500;
+ font-size: 2.5rem;
+ letter-spacing: 0.05em;
+ font-weight: 400;
  color: #111;
  margin: 0;
 }
