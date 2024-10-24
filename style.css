@@ -30,8 +30,9 @@ html, body {}
 
 .date-and-loc {
   display: block;
-  margin: 0 auto;
+  margin: 10% auto 0;
   text-align: center;
+  line-height: 1.4;
 }
 .t-date {
   display: inline-block;
