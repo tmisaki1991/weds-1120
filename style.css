@@ -52,14 +52,11 @@ html, body {}
 .t-date::before {
   position: absolute;
   content: "2024";
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   rotate: 90deg;
-  height: 1em;
-  top: 0;
-  bottom: 0;
-  left: -5px;
-  margin: auto;
-  letter-spacing: 0.1em;
+  top: 13px;
+  left: -22px;
+  letter-spacing: 0.2em;
   font-weight: 500;
 }
 .t-location {
@@ -71,7 +68,8 @@ html, body {}
   color: #111;
 }
 .t-location .low-2 {
-  font-size: 0.8rem;
+  font-size: 1.5rem;
+  margin-left: 6px;
 }
 
 
