@@ -55,7 +55,7 @@ html, body {}
   font-size: 0.6rem;
   rotate: 90deg;
   top: 13px;
-  left: -22px;
+  left: -25px;
   letter-spacing: 0.2em;
   font-weight: 500;
 }
@@ -69,7 +69,7 @@ html, body {}
 }
 .t-location .low-2 {
   font-size: 1.5rem;
-  margin-left: -6px;
+  margin-left: -8px;
 }
 
 
