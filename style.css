@@ -146,6 +146,20 @@ html, body {
   font-family: "carol-gothic", sans-serif;
   mix-blend-mode: multiply;
  }
+ .sub-ttl-1 {
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  text-align: left;
+  color: #999;
+}
+ .sub-ttl-2 {
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  text-align: right;
+  color: #999;
+}
 
 
 
