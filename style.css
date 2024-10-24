@@ -1,7 +1,10 @@
 @charset "utf-8";
 
 .fs-notosans {font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;}
-.fs-Bodoni {font-family: "bodoni-moda-variable", sans-serif;}
+.fs-Bodoni {
+  font-family: "bodoni-moda-variable", sans-serif;
+  font-variation-settings: "opsz" 30, "wght" 400;
+}
 .fs-Nimbus {font-family: nimbus-sans, sans-serif;}
 
 
@@ -161,7 +164,6 @@ html, body {}
  letter-spacing: 0.05em;
  font-weight: 400;
  color: #111;
- font-variation-settings: "opsz" 30, "wght" 400;
  margin: 0 auto 10px;
 }
 .event-more {
