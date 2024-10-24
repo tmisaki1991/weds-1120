@@ -51,9 +51,10 @@ html, body {
   position: relative;
 }
 .t-date .low-1 {
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   letter-spacing: 0.01em;
   vertical-align: middle;
+  font-variation-settings: "opsz" 10, "wght" 500;
 }
 .t-date::before {
   position: absolute;
@@ -64,6 +65,7 @@ html, body {
   left: -25px;
   letter-spacing: 0.2em;
   font-weight: 500;
+  font-variation-settings: "opsz" 10, "wght" 500;
 }
 .t-location {
 	display: inline-block;
@@ -125,14 +127,14 @@ html, body {
   display: block;
   margin: 0 auto;
 }
-.main-ttl {
+.wt-area .main-ttl {
   font-size: 3.5rem;
   font-weight: 400;
   text-align: center;
   color: #111;
   position: relative;
  }
- .main-ttl::after {
+  .wt-area .main-ttl::after {
   position: absolute;
   transform: translateX(-50%);
   top: 0;
@@ -146,7 +148,7 @@ html, body {
   font-family: "carol-gothic", sans-serif;
   mix-blend-mode: multiply;
  }
- .sub-ttl {
+ .wt-area .sub-ttl {
   font-size: 0.6rem;
   letter-spacing: 0.05em;
   font-weight: 400;
