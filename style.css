@@ -179,7 +179,7 @@ html, body {
 }
 
 .cont-block {
-  margin: 10px auto 0;
+  margin: 10px auto 80px;
   background: #c6e7f2;
   padding: 90px 0 40px;
 }
@@ -252,7 +252,7 @@ html, body {
 
 
 .dp-area {
-  width: 405px;
+  width: 425px;
   margin: 0 auto;
 }
 .dp-sub {
@@ -289,7 +289,7 @@ html, body {
 }
 .details .check-ttl-01 {
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   letter-spacing: 0.05em;
   font-weight: 500;
   text-align: left;
@@ -302,6 +302,7 @@ html, body {
   font-weight: 400;
   text-align: left;
   color: #111;
+  line-height: 1.8;
 }
 .details p .bold {
   display: inline-block;
@@ -312,6 +313,7 @@ html, body {
   font-size: 0.6rem;
   font-weight: 400;
   color: #999;
+  margin-top: 10px;
 }
 
 
