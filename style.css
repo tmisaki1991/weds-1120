@@ -124,7 +124,9 @@ html, body {
 
 
 
-
+.wt-area {
+  margin: 0 auto;
+}
 .wt-sub {
   display: flow-root;
 }
@@ -142,20 +144,14 @@ html, body {
   font-weight: 400;
   color: #111;
 }
-.wt-area {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-.wt-area .wt-ttl {
-  display: inline-block;
+.wt-main-ttl {
   font-size: 3.5rem;
   font-weight: 400;
-  text-align: left;
+  text-align: center;
   color: #111;
   position: relative;
  }
-.wt-area .wt-ttl::after {
+.wt-main-ttl::after {
   position: absolute;
   transform: translateX(-50%);
   top: 0;
