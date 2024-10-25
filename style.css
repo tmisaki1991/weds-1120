@@ -30,7 +30,7 @@ html, body {
   width: 100vw;
   height: 100vh;
   z-index: 10;
-  background-color: #fff;
+  background-color: #2eb2e8;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,7 +49,7 @@ html, body {
 .loading__logo {
   opacity: 0;
   animation: logo_fade 2s 0.5s forwards;
-  width: 175px;
+  width: 110px;
 }
 @keyframes logo_fade {
   0% {
@@ -639,9 +639,10 @@ html, body {
 .dp-area {
   width: 100%;
   margin: 0 auto 20px;
+  text-align: center;
 }
 .dp-sub {
-  width: 90%;
+  width: 95%;
   display: flow-root;
   margin: 0 auto 11px;
 }
