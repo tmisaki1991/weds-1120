@@ -21,6 +21,7 @@ html, body {
 
 .container {
   width: 100%;
+  margin: 0 auto 60px;
 }
 
 
@@ -79,8 +80,8 @@ html, body {
   color: #111;
 }
 .t-location .low-2 {
-  font-size: 1.5rem;
-  margin-left: -8px;
+  font-size: 1.3rem;
+  margin-left: 0;
 }
 .t-adress {
   display: inline-block;
@@ -93,8 +94,8 @@ html, body {
 }
 
 
-/* --------- マップ --------- */
-.map {
+/* --------- 式場マップ --------- */
+.map-cereomny {
   position: relative;
   aspect-ratio: 16 / 9;
   max-width: 1000px;
@@ -102,7 +103,7 @@ html, body {
   height: auto;
   margin: 30px auto 60px;
 }
-.map iframe {
+.map-cereomny iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -283,9 +284,30 @@ html, body {
 
 
 
+/* --------- 集合場所マップ --------- */
+.map-cruise {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  max-width: 1000px;
+  width: 40%;
+  height: auto;
+  margin: 0 auto 30px;
+}
+.map-cruise iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+}
+
+
+
 /* --------- ディナーパーティー　概要欄 --------- */
 .details {
   display: block;
+  width: 40%;
   margin: 0 auto;
   text-align: center;
 }
@@ -296,16 +318,18 @@ html, body {
   font-weight: 500;
   text-align: left;
   color: #111;
+  margin: 0 auto 10px;
 }
 .details p {
   display: inline-block;
-  width: 35%;
+  width: 100%;
   font-size: 0.8rem;
   letter-spacing: 0.05em;
   font-weight: 400;
   text-align: left;
   color: #111;
   line-height: 1.8;
+  margin: 0 auto 30px;
 }
 .details p .bold {
   display: inline-block;
