@@ -80,7 +80,7 @@ html, body {
 
 
 
-/* --------- トップバナー --------- */
+/* --------- トップバナー (PC) --------- */
 .mainvisual {
   background: #f8f8f8;
   padding: 2% 0 0;
@@ -92,7 +92,7 @@ html, body {
 }
 
 
-/* --------- 日時・場所 --------- */
+/* --------- 日時・場所 (PC) --------- */
 .date-and-loc {
   display: block;
   margin: 0 auto;
@@ -149,7 +149,7 @@ html, body {
 }
 
 
-/* --------- 式場マップ --------- */
+/* --------- 式場マップ (PC) --------- */
 .map-ceremony {
   position: relative;
   aspect-ratio: 16 / 9;
@@ -168,7 +168,7 @@ html, body {
 }
 
 
-/* --------- 導入文 --------- */
+/* --------- 導入文 (PC) --------- */
 .txt {
   font-size: 0.8rem;
   font-weight: 400;
@@ -179,7 +179,7 @@ html, body {
  }
 
 
-/* --------- ウェディングタイムライン　タイトル周り --------- */
+/* --------- ウェディングタイムライン　タイトル周り (PC) --------- */
 .wt-area {
   width: 640px;
   margin: 0 auto;
@@ -226,7 +226,7 @@ html, body {
 
 
 
-/* --------- ウェディングタイムライン --------- */
+/* --------- ウェディングタイムライン (PC) --------- */
 .flx-row {
   flex-direction: row;
 }
@@ -307,7 +307,7 @@ html, body {
 
 
 
-/* --------- ディナーパーティー　タイトル周り --------- */
+/* --------- ディナーパーティー　タイトル周り (PC) --------- */
 .dp-area {
   width: 665px;
   margin: 0 auto 20px;
@@ -340,7 +340,7 @@ html, body {
 
 
 
-/* --------- 集合場所マップ --------- */
+/* --------- 集合場所マップ (PC) --------- */
 .map-cruise {
   position: relative;
   aspect-ratio: 16 / 9;
@@ -360,7 +360,7 @@ html, body {
 
 
 
-/* --------- ディナーパーティー　概要欄 --------- */
+/* --------- ディナーパーティー　概要欄 (PC) --------- */
 .details {
   display: block;
   width: 40%;
@@ -422,7 +422,7 @@ html, body {
 
 
 
-/* --------- トップバナー --------- */
+/* --------- トップバナー (SP) --------- */
 .mainvisual {
   width: 100%;
 }
@@ -432,7 +432,7 @@ html, body {
 }
 
 
-/* --------- 日時・場所 --------- */
+/* --------- 日時・場所 (SP) --------- */
 .date-and-loc {
   display: block;
   margin: 0 auto;
@@ -489,12 +489,12 @@ html, body {
 }
 
 
-/* --------- 式場マップ --------- */
+/* --------- 式場マップ (SP) --------- */
 .map-ceremony {
   position: relative;
   aspect-ratio: 16 / 9;
   max-width: 1000px;
-  width: 40%;
+  width: 90%;
   height: auto;
   margin: 30px auto 60px;
 }
@@ -508,7 +508,7 @@ html, body {
 }
 
 
-/* --------- 導入文 --------- */
+/* --------- 導入文 (SP) --------- */
 .txt {
   font-size: 0.8rem;
   font-weight: 400;
@@ -519,9 +519,9 @@ html, body {
  }
 
 
-/* --------- ウェディングタイムライン　タイトル周り --------- */
+/* --------- ウェディングタイムライン　タイトル周り (SP) --------- */
 .wt-area {
-  width: 640px;
+  width: 100%;
   margin: 0 auto;
 }
 .wt-sub {
@@ -566,7 +566,7 @@ html, body {
 
 
 
-/* --------- ウェディングタイムライン --------- */
+/* --------- ウェディングタイムライン (SP) --------- */
 .flx-row {
   flex-direction: row;
 }
@@ -575,13 +575,13 @@ html, body {
 }
 
 .cont-block {
+  width: 100%;
   margin: 10px auto 80px;
   background: #c6e7f2;
   padding: 90px 0 40px;
 }
 .col_box {
-  width: 60%;
-  max-width: 1000px;
+  width: 100%;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -629,27 +629,13 @@ html, body {
  margin: 0;
 }
 
-.cont-block .pic-box img {
-  width: 25%;
-  animation: rotation 70s linear infinite !important;
-  margin-left: 50px;
-}
-/* 回転アニメーション */
-@keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 
 
 
-/* --------- ディナーパーティー　タイトル周り --------- */
+/* --------- ディナーパーティー　タイトル周り (SP) --------- */
 .dp-area {
-  width: 665px;
+  width: 100%;
   margin: 0 auto 20px;
 }
 .dp-sub {
@@ -680,12 +666,12 @@ html, body {
 
 
 
-/* --------- 集合場所マップ --------- */
+/* --------- 集合場所マップ (SP) --------- */
 .map-cruise {
   position: relative;
   aspect-ratio: 16 / 9;
   max-width: 1000px;
-  width: 40%;
+  width: 90%;
   height: auto;
   margin: 0 auto 30px;
 }
@@ -700,10 +686,10 @@ html, body {
 
 
 
-/* --------- ディナーパーティー　概要欄 --------- */
+/* --------- ディナーパーティー　概要欄 (SP) --------- */
 .details {
   display: block;
-  width: 40%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
 }
