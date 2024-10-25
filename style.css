@@ -297,8 +297,8 @@ html, body {
 }
 .details p {
   display: inline-block;
-  width: 50%;
-  font-size: 0.9rem;
+  width: 35%;
+  font-size: 0.8rem;
   letter-spacing: 0.05em;
   font-weight: 400;
   text-align: left;
