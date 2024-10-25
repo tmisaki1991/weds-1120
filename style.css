@@ -276,7 +276,7 @@ html, body {
 .event {
  font-size: 2.5rem;
  letter-spacing: 0.5em;
- font-weight: 300;
+ font-weight: 400;
  color: #111;
  margin: 0 auto 10px;
  margin-right: -0.5em;
@@ -334,7 +334,7 @@ html, body {
   display: inline-block;
   font-size: 5.5rem;
   font-weight: 400;
-  text-align: left;
+  text-align: center;
   color: #111;
  }
 
@@ -526,6 +526,7 @@ html, body {
   margin: 0 auto;
 }
 .wt-sub {
+  width: 90%;
   display: flow-root;
   margin: 0 auto 11px;
 }
@@ -544,7 +545,7 @@ html, body {
   color: #111;
 }
 .wt-main-ttl {
-  font-size: 3.5rem;
+  font-size: 3.0rem;
   font-weight: 400;
   text-align: center;
   color: #111;
@@ -557,7 +558,7 @@ html, body {
   left: 50%;
   z-index: 2;
   content: 'Timeline';
-  font-size: 7.0rem;
+  font-size: 5.0rem;
   font-weight: 400;
   text-align: center;
   color: #2eb2e8;
@@ -640,6 +641,7 @@ html, body {
   margin: 0 auto 20px;
 }
 .dp-sub {
+  width: 90%;
   display: flow-root;
   margin: 0 auto 11px;
 }
@@ -659,9 +661,9 @@ html, body {
 }
 .dp-area .dp-ttl {
   display: inline-block;
-  font-size: 3.5rem;
+  font-size: 3.0rem;
   font-weight: 400;
-  text-align: left;
+  text-align: center;
   color: #111;
  }
 
