@@ -36,6 +36,7 @@ html, body {
 }
 
 
+/* --------- 日時・場所 --------- */
 .date-and-loc {
   display: block;
   margin: 0 auto;
@@ -92,7 +93,7 @@ html, body {
 }
 
 
-
+/* --------- マップ --------- */
 .map {
   position: relative;
   aspect-ratio: 16 / 9;
@@ -111,7 +112,7 @@ html, body {
 }
 
 
-
+/* --------- 導入文 --------- */
 .txt {
   font-size: 0.8rem;
   font-weight: 400;
@@ -122,10 +123,9 @@ html, body {
  }
 
 
-
-
+/* --------- ウェディングタイムライン　タイトル周り --------- */
 .wt-area {
-  width: 405px;
+  width: 640px;
   margin: 0 auto;
 }
 .wt-sub {
@@ -147,7 +147,7 @@ html, body {
   color: #111;
 }
 .wt-main-ttl {
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   font-weight: 400;
   text-align: center;
   color: #111;
@@ -160,7 +160,7 @@ html, body {
   left: 50%;
   z-index: 2;
   content: 'Timeline';
-  font-size: 5.5rem;
+  font-size: 7.0rem;
   font-weight: 400;
   text-align: center;
   color: #2eb2e8;
@@ -170,7 +170,7 @@ html, body {
 
 
 
-
+/* --------- ウェディングタイムライン --------- */
 .flx-row {
   flex-direction: row;
 }
@@ -250,10 +250,10 @@ html, body {
 
 
 
-
+/* --------- ディナーパーティー　タイトル周り --------- */
 .dp-area {
-  width: 425px;
-  margin: 0 auto;
+  width: 665px;
+  margin: 0 auto 20px;
 }
 .dp-sub {
   display: flow-root;
@@ -275,13 +275,15 @@ html, body {
 }
 .dp-area .dp-ttl {
   display: inline-block;
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   font-weight: 400;
   text-align: left;
   color: #111;
  }
 
 
+
+/* --------- ディナーパーティー　概要欄 --------- */
 .details {
   display: block;
   margin: 0 auto;
