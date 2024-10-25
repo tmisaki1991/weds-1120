@@ -297,6 +297,7 @@ html, body {
 }
 .details p {
   display: inline-block;
+  width: 50%;
   font-size: 0.9rem;
   letter-spacing: 0.05em;
   font-weight: 400;
@@ -310,10 +311,10 @@ html, body {
 }
 .details p .thin {
   display: inline-block;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   font-weight: 400;
-  color: #999;
-  margin-top: 10px;
+  color: #666;
+  margin: 7px 0 10px;
 }
 
 
