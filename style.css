@@ -543,7 +543,7 @@ html, body {
   color: #111;
 }
 .wt-main-ttl {
-  font-size: 5.5rem;
+  font-size: 3.5rem;
   font-weight: 400;
   text-align: center;
   color: #111;
@@ -658,7 +658,7 @@ html, body {
 }
 .dp-area .dp-ttl {
   display: inline-block;
-  font-size: 5.5rem;
+  font-size: 3.5rem;
   font-weight: 400;
   text-align: left;
   color: #111;
