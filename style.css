@@ -580,10 +580,10 @@ html, body {
   width: 100%;
   margin: 10px auto 80px;
   background: #c6e7f2;
-  padding: 90px 0 40px;
+  padding: 15% 0 40px;
 }
 .col_box {
-  width: 100%;
+  width: 90%;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -602,11 +602,11 @@ html, body {
 }
 .cont-block .desc-box .left {
   text-align: left;
-  margin-left: 0;
+  margin-left: 5%;
 }
 .cont-block .desc-box .right {
   text-align: right;
-  margin-right: 20px;
+  margin-right: 15%;
 }
 .time {
  font-size: 1.2rem;
@@ -616,9 +616,9 @@ html, body {
  margin: 0 auto;
 }
 .event {
- font-size: 1.8rem;
- letter-spacing: 0.4em;
- font-weight: 300;
+ font-size: 1.5rem;
+ letter-spacing: 0.3em;
+ font-weight: 400;
  color: #111;
  margin: 0 auto 10px;
  margin-right: -0.5em;
@@ -629,6 +629,21 @@ html, body {
  font-weight: 500;
  color: #111;
  margin: 0;
+}
+
+.cont-block .pic-box img {
+  width: 55%;
+  animation: rotation 70s linear infinite !important;
+  margin-left: 10%;
+}
+/* 回転アニメーション */
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 
