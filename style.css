@@ -131,9 +131,10 @@ html, body {
   text-align: center;
 }
 .wt-area .wt-ttl {
+  display: inline-block;
   font-size: 3.5rem;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   color: #111;
   position: relative;
  }
@@ -249,11 +250,11 @@ html, body {
   text-align: center;
 }
 .dp-area .dp-ttl {
+  display: inline-block;
   font-size: 3.5rem;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   color: #111;
-  position: relative;
  }
 .dp-area .event-ttl {
   display: inline-block;
@@ -281,7 +282,7 @@ html, body {
 }
 .details p {
   display: inline-block;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   letter-spacing: 0.05em;
   font-weight: 400;
   text-align: left;
@@ -289,18 +290,12 @@ html, body {
 }
 .details p .bold {
   display: inline-block;
-  font-size: 1.0rem;
-  letter-spacing: 0.05em;
   font-weight: 600;
-  text-align: left;
-  color: #111;
 }
 .details p .thin {
   display: inline-block;
-  font-size: 0.8rem;
-  letter-spacing: 0.05em;
+  font-size: 0.6rem;
   font-weight: 400;
-  text-align: left;
   color: #999;
 }
 
