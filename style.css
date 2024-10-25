@@ -6,6 +6,7 @@
   font-variation-settings: "opsz" 30, "wght" 400;
 }
 .fs-Nimbus {font-family: nimbus-sans, sans-serif;}
+.fs-Nimbus-ex {font-family: nimbus-sans-extended, sans-serif;}
 .fs-Carol {font-family: "carol-gothic", sans-serif;}
 .fs-Castoro {font-family: "castoro-titling", sans-serif;}
 
@@ -219,9 +220,9 @@ html, body {
  margin: 0 auto 10px;
 }
 .event {
- font-size: 2.8rem;
- letter-spacing: 0.05em;
- font-weight: 400;
+ font-size: 2.5rem;
+ letter-spacing: 0.5em;
+ font-weight: 300;
  color: #111;
  margin: 0 auto 10px;
 }
