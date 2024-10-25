@@ -125,6 +125,23 @@ html, body {
 
 
 
+.wt-sub {
+  display: flow-root;
+}
+.deco-ttl1 {
+  float: left;
+  font-size: 0.6rem;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  color: #111;
+}
+.deco-ttl2 {
+  float: right;
+  font-size: 0.6rem;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  color: #111;
+}
 .wt-area {
   display: block;
   margin: 0 auto;
@@ -152,15 +169,7 @@ html, body {
   font-family: "carol-gothic", sans-serif;
   mix-blend-mode: multiply;
  }
-.wt-area .deco-ttl {
-  display: inline-block;
-  font-size: 0.6rem;
-  letter-spacing: 0.05em;
-  font-weight: 400;
-  text-align: left;
-  color: #111;
-  margin: 0 auto 10px;
-}
+
 
 
 
