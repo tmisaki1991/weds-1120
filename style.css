@@ -95,7 +95,7 @@ html, body {
 
 
 /* --------- 式場マップ --------- */
-.map-cereomny {
+.map-ceremony {
   position: relative;
   aspect-ratio: 16 / 9;
   max-width: 1000px;
@@ -103,7 +103,7 @@ html, body {
   height: auto;
   margin: 30px auto 60px;
 }
-.map-cereomny iframe {
+.map-ceremony iframe {
   position: absolute;
   top: 0;
   left: 0;
