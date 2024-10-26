@@ -49,7 +49,7 @@ html, body {
 .loading__logo {
   opacity: 0;
   animation: logo_fade 2s 0.5s forwards;
-  width: 30%;
+  width: 20%;
 }
 @keyframes logo_fade {
   0% {
@@ -85,10 +85,23 @@ html, body {
   background: #f8f8f8;
   padding: 2% 0 0;
   margin: 0 auto 50px;
+  position: relative;
 }
 .mainvisual img {
   width: 50%;
   margin: 0 auto;
+}
+.mainvisual::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left:0;
+  display: block;
+  width: 100%;
+  height: 800px;
+  background-image: url(https://weds-241120.github.io/invitation/info-241120-img-kame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 
@@ -419,7 +432,7 @@ html, body {
 
 
 .loading__logo {
-  width: 50%;
+  width: 60%;
 }
 
 .container {
