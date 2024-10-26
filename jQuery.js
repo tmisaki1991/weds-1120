@@ -32,20 +32,6 @@ function randomImage ( imgArray, $target){
 };
 
 
-// スライドインアニメーション
-let winHeight,winScroll,scrollPos;
-$(window).on('load scroll',function(){
-    winScroll = $(window).scrollTop();
-    winHeight = $(window).height();
-    scrollPos = winHeight * 0.9 + winScroll;
-    $(".slidein").each(function(){
-        if($(this).offset().top <= scrollPos){
-            $(this).addClass("show");
-        }else{
-            $(this).removeClass("show");
-        }
-    });
-});
 
 // スライドインアニメーション
 $(window).scroll(function (){
