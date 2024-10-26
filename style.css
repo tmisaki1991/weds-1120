@@ -95,6 +95,7 @@ html, body {
 /* --------- 日時・場所 (PC) --------- */
 .date-and-loc {
   display: block;
+  width: 40%;
   margin: 0 auto;
   text-align: center;
   line-height: 1.3;
@@ -105,7 +106,7 @@ html, body {
   letter-spacing: 0.08em;
   font-weight: 400;
   text-align: left;
-  margin: 0 auto;
+  margin: 0 0 0 16px;
   color: #111;
   position: relative;
 }
@@ -120,9 +121,9 @@ html, body {
   content: "2024";
   font-size: 0.6rem;
   rotate: 90deg;
-  top: 13px;
+  top: 10px;
   left: -25px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   font-weight: 500;
   font-variation-settings: "opsz" 10, "wght" 500;
 }
@@ -131,7 +132,7 @@ html, body {
   font-size: 2.0rem;
   font-weight: 400;
   text-align: left;
-  margin: 0 auto;
+  margin: 0 0 0 16px;
   color: #111;
 }
 .t-location .low-2 {
@@ -144,7 +145,7 @@ html, body {
   letter-spacing: 0.05em;
   font-weight: 400;
   text-align: left;
-  margin: 10px 0 0 -125px;
+  margin: 10px 0;
   color: #999;
 }
 
