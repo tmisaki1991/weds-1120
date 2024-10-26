@@ -611,11 +611,12 @@ html, body {
 }
 #top-btn {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 10px;
+  right: 10px;
 }
 #top-btn img {
   width: 12%;
+  padding: 2%;
 }
 
 
