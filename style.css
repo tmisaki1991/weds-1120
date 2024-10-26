@@ -549,15 +549,19 @@ html, body {
   font-weight: 400;
   text-align: center;
   line-height: 1.8;
-  margin: 0 auto 80px;
+  letter-spacing: 0.05em;
+  margin: 0 auto 20px;
   color: #fff;
  }
 hr {
  height: 1px;
  border: 0;
  border-top: 1px solid #35363b;
+ margin: 30px 0;
 }
 .copyright {
+  font-size: 0.6rem;
+  letter-spacing: 0.05em;
  text-align: center;
  color: #999;
 }
@@ -947,6 +951,34 @@ hr {
   color: #666;
   margin: 10px 0 10px;
 }
+
+
+
+/* --------- フッター (SP) --------- */
+.footer {
+ background: #111;
+ margin: 40px 0 0;
+ padding: 2rem;
+}
+.txt-f {
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.8;
+  margin: 0 auto;
+  color: #fff;
+ }
+hr {
+ height: 1px;
+ border: 0;
+ border-top: 1px solid #35363b;
+ margin: 10% 0;
+}
+.copyright {
+  font-size: 0.6rem;
+  letter-spacing: 0.05em;
+ text-align: center;
+ co
 
 
 }
