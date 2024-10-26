@@ -583,9 +583,10 @@ html, body {
 .mainvisual::after {
   position: absolute;
   content: '';
+  top: 470px;
   right:28%;
   display: block;
-  width: 20%;
+  width: 2%;
   height: 800px;
   background-image: url(https://weds-241120.github.io/invitation/info-241120-img-kame.png);
   background-size: contain;
@@ -599,7 +600,7 @@ html, body {
   display: block;
   width: 85%;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   line-height: 1.3;
 }
 .t-date {
@@ -608,7 +609,7 @@ html, body {
   letter-spacing: 0.08em;
   font-weight: 400;
   text-align: left;
-  margin: 0 auto;
+  margin: 0 0 0 16px;
   color: #111;
   position: relative;
 }
@@ -647,7 +648,7 @@ html, body {
   letter-spacing: 0.05em;
   font-weight: 400;
   text-align: left;
-  margin: 10px 0 0 -125px;
+  margin: 10px 0 0;
   color: #999;
 }
 
@@ -768,7 +769,7 @@ html, body {
 }
 .cont-block .desc-box .right {
   text-align: right;
-  margin-right: 10%;
+  margin-right: 5%;
 }
 .time {
  font-size: 1.2rem;
@@ -778,17 +779,17 @@ html, body {
  margin: 0 auto;
 }
 .event {
- font-size: 1.5rem;
+ font-size: 1.3rem;
  letter-spacing: 0.3em;
  font-weight: 400;
  color: #111;
  margin: 0 auto 10px;
- margin-right: -0.5em;
+ margin-right: -0.3em;
 }
 .event-more {
  font-size: 0.9rem;
- line-height: 1.5;
- font-weight: 500;
+ line-height: 1.7;
+ font-weight: 600;
  color: #111;
  margin: 0;
 }
@@ -900,10 +901,10 @@ html, body {
 }
 .details p .thin {
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 400;
   color: #666;
-  margin: 7px 0 10px;
+  margin: 10px 0 10px;
 }
 
 
