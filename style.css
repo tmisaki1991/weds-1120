@@ -102,7 +102,7 @@ html, body {
 
 .container {
   width: 100%;
-  margin: 0 auto 60px;
+  margin: 0 auto;
 }
 
 
@@ -540,10 +540,9 @@ html, body {
 
 /* --------- フッター (PC) --------- */
 .footer {
+ background: #111;
+ margin: 40px 0 0;
  padding: 2rem;
- font-size: 15px;
- color: #9ca3af;
- background: #1d1e22;
 }
 .txt-f {
   font-size: 0.8rem;
@@ -559,7 +558,8 @@ hr {
  border-top: 1px solid #35363b;
 }
 .copyright {
- text-align: left;
+ text-align: center;
+ color: #999;
 }
 
 
