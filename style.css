@@ -176,17 +176,15 @@ html, body {
   width: 45%;
   margin: 0 auto;
 }
-
-
-/* --------- 日時・場所 (PC) --------- */
-.date-and-loc {
+.mainvisual::before {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 90%;
   display: block;
-  width: 30%;
-  margin: 0 auto;
-  text-align: left;
-  line-height: 1.3;
 }
-.date-and-loc::after {
+.mainvisual::after {
   position: absolute;
   content: '';
   top: 0;
@@ -198,6 +196,16 @@ html, body {
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 1;
+}
+
+
+/* --------- 日時・場所 (PC) --------- */
+.date-and-loc {
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.3;
 }
 .t-date {
   display: inline-block;
