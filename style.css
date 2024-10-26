@@ -88,7 +88,7 @@ html, body {
   position: relative;
 }
 .mainvisual img {
-  width: 50%;
+  width: 45%;
   margin: 0 auto;
 }
 .mainvisual::after {
@@ -108,9 +108,9 @@ html, body {
 /* --------- 日時・場所 (PC) --------- */
 .date-and-loc {
   display: block;
-  width: 40%;
+  width: 30%;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   line-height: 1.3;
 }
 .t-date {
@@ -145,7 +145,7 @@ html, body {
   font-size: 2.0rem;
   font-weight: 400;
   text-align: left;
-  margin: 0 0 0 16px;
+  margin: 0;
   color: #111;
 }
 .t-location .low-2 {
@@ -168,7 +168,7 @@ html, body {
   position: relative;
   aspect-ratio: 16 / 9;
   max-width: 1000px;
-  width: 40%;
+  width: 30%;
   height: auto;
   margin: 30px auto 60px;
 }
@@ -254,7 +254,7 @@ html, body {
   padding: 90px 0 40px;
 }
 .col_box {
-  width: 60%;
+  width: 50%;
   max-width: 1000px;
   position: relative;
   display: flex;
@@ -358,7 +358,7 @@ html, body {
   position: relative;
   aspect-ratio: 16 / 9;
   max-width: 1000px;
-  width: 40%;
+  width: 30%;
   height: auto;
   margin: 0 auto 30px;
 }
@@ -376,7 +376,7 @@ html, body {
 /* --------- ディナーパーティー　概要欄 (PC) --------- */
 .details {
   display: block;
-  width: 40%;
+  width: 30%;
   margin: 0 auto;
   text-align: center;
 }
