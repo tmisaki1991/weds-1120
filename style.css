@@ -545,6 +545,14 @@ html, body {
  color: #9ca3af;
  background: #1d1e22;
 }
+.txt {
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.8;
+  margin: 0 auto 80px;
+  color: #fff;
+ }
 hr {
  height: 1px;
  border: 0;
