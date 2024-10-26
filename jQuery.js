@@ -1,9 +1,16 @@
 $(function(){
     // ランダムに表示させたいイメージ名を配列に格納
     let thumbnaileFileNameArray = [
-        "info-241120-icon-funi",
-        "info-241120-icon-inu",
-        "info-241120-icon-powa"
+        "info-241120-loading01",
+        "info-241120-loading02",
+        "info-241120-loading03",
+        "info-241120-loading04",
+        "info-241120-loading05",
+        "info-241120-loading06",
+        "info-241120-loading07",
+        "info-241120-loading08",
+        "info-241120-loading09",
+        "info-241120-loading10"
     ];
     // ランダム表示させたいimg要素を定義
     let $thumbnaileImgElement = $("#random_thumbnaile img");
