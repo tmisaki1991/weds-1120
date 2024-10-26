@@ -544,6 +544,23 @@ html, body {
 
 
 
+/* --------- フッター (PC) --------- */
+.footer {
+ padding: 2rem;
+ font-size: 15px;
+ color: #9ca3af;
+ background: #1d1e22;
+}
+hr {
+ height: 1px;
+ border: 0;
+ border-top: 1px solid #35363b;
+}
+.copyright {
+ text-align: left;
+}
+
+
 
 
 
