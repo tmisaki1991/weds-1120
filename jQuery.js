@@ -53,9 +53,9 @@ $(document).ready(function () {
     $("#top-btn").hide();　//ボタンを非表示にする
     $(window).on("scroll", function () {
         if ($(this).scrollTop() > 1500) { //ページの上から100pxスクロールした時
-            $("#top-btn").fadeIn("slow"); //ボタンがフェードインする
+            $("#top-btn").fadeIn("3000"); //ボタンがフェードインする
         } else {
-            $("#top-btn").fadeOut("slow");　//ボタンがフェードアウトする
+            $("#top-btn").fadeOut("3000");　//ボタンがフェードアウトする
         }
         scrollHeight = $(document).height(); //ドキュメントの高さ 
         scrollPosition = $(window).height() + $(window).scrollTop(); //現在地 
