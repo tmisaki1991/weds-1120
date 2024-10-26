@@ -178,17 +178,17 @@ html, body {
 }
 
 
-
+/* --------- トップへ戻る (PC) --------- */
 #content {
     position: relative;
 }
 #top-btn {
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 10px;
+  right: 10px;
 }
 #top-btn img {
-  width: 15%;
+  width: 10%;
 }
 
 
@@ -600,6 +600,10 @@ hr {
 }
 
 
+/* --------- トップへ戻る (SP) --------- */
+#top-btn img {
+  width: 12%;
+}
 
 
 /* --------- トップバナー (SP) --------- */
