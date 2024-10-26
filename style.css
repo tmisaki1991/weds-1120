@@ -584,9 +584,9 @@ html, body {
   position: absolute;
   content: '';
   top: 470px;
-  right:28%;
+  right: 3%;
   display: block;
-  width: 2%;
+  width: 28%;
   height: 800px;
   background-image: url(https://weds-241120.github.io/invitation/info-241120-img-kame.png);
   background-size: contain;
