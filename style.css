@@ -264,7 +264,7 @@ html, body {
 }
 .cont-block .desc-box .right {
   text-align: right;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 .time {
  font-size: 1.3rem;
@@ -290,9 +290,8 @@ html, body {
 }
 
 .cont-block .pic-box img {
-  width: 25%;
-  animation: rotation 70s linear infinite !important;
-  margin-left: 50px;
+  width: 70%;
+  animation: rotation 20s linear infinite !important;
 }
 /* 回転アニメーション */
 @keyframes rotation {
