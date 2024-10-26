@@ -77,7 +77,6 @@ html, body {
   transform: translate(0,0);
   transition-duration: 2.0s;
   transition-delay: 1.5s;
-
 &.fadein-left {
   transform: translate(-30px,0);
 }
@@ -550,15 +549,9 @@ html, body {
   text-align: center;
   line-height: 1.8;
   letter-spacing: 0.05em;
-  margin: 0 auto 20px;
+  margin: 0 auto 40px;
   color: #fff;
  }
-hr {
- height: 1px;
- border: 0;
- border-top: 1px solid #35363b;
- margin: 30px 0;
-}
 .copyright {
   font-size: 0.6rem;
   letter-spacing: 0.05em;
@@ -965,20 +958,12 @@ hr {
   font-weight: 400;
   text-align: center;
   line-height: 1.8;
-  margin: 0 auto;
+  margin: 0 auto 5%;
   color: #fff;
  }
-hr {
- height: 1px;
- border: 0;
- border-top: 1px solid #35363b;
- margin: 10% 0;
-}
 .copyright {
   font-size: 0.6rem;
   letter-spacing: 0.05em;
- text-align: center;
- co
-
-
+  text-align: center;
+  color: #999;
 }
