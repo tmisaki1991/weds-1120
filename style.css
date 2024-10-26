@@ -49,7 +49,7 @@ html, body {
 .loading__logo {
   opacity: 0;
   animation: logo_fade 2s 0.5s forwards;
-  width: 40%;
+  width: 30%;
 }
 @keyframes logo_fade {
   0% {
@@ -415,6 +415,11 @@ html, body {
 
 .pc {display: none;}
 .sp {display: block;}
+
+
+.loading__logo {
+  width: 50%;
+}
 
 .container {
   width: 100% !important;
