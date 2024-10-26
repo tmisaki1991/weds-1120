@@ -52,7 +52,7 @@ $(window).scroll(function (){
 $(document).ready(function () {
     $("#top-btn").hide();　//ボタンを非表示にする
     $(window).on("scroll", function () {
-        if ($(this).scrollTop() > 100) { //ページの上から100pxスクロールした時
+        if ($(this).scrollTop() > 800) { //ページの上から100pxスクロールした時
             $("#top-btn").fadeIn("fast"); //ボタンがフェードインする
         } else {
             $("#top-btn").fadeOut("fast");　//ボタンがフェードアウトする
