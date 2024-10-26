@@ -91,18 +91,6 @@ html, body {
   width: 45%;
   margin: 0 auto;
 }
-.mainvisual::after {
-  position: absolute;
-  content: '';
-  top: 0;
-  left:0;
-  display: block;
-  width: 100%;
-  height: 800px;
-  background-image: url(https://weds-241120.github.io/invitation/info-241120-img-kame.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
 
 /* --------- 日時・場所 (PC) --------- */
@@ -112,6 +100,19 @@ html, body {
   margin: 0 auto;
   text-align: left;
   line-height: 1.3;
+}
+.date-and-loc::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left:0;
+  display: block;
+  width: 10%;
+  height: 800px;
+  background-image: url(https://weds-241120.github.io/invitation/info-241120-img-kame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
 }
 .t-date {
   display: inline-block;
