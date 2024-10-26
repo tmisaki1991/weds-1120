@@ -654,7 +654,7 @@ hr {
   content: "2024";
   font-size: 0.6rem;
   rotate: 90deg;
-  top: 13px;
+  top: 10px;
   left: -25px;
   letter-spacing: 0.2em;
   font-weight: 500;
@@ -818,16 +818,15 @@ hr {
 }
 .event-more {
  font-size: 0.9rem;
- line-height: 1.7;
- font-weight: 600;
+ line-height: 1.6;
+ font-weight: 500;
  color: #111;
  margin: 0;
 }
 
 .cont-block .pic-box img {
-  width: 90%;
+  width: 100%;
   animation: rotation 20s linear infinite !important;
-  margin-left: 10%;
 }
 /* 回転アニメーション */
 @keyframes rotation {
