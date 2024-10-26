@@ -49,7 +49,7 @@ html, body {
 .loading__logo {
   opacity: 0;
   animation: logo_fade 2s 0.5s forwards;
-  width: 110px;
+  width: 40%;
 }
 @keyframes logo_fade {
   0% {
@@ -375,6 +375,10 @@ html, body {
   text-align: left;
   color: #111;
   margin: 0 auto 10px;
+  padding: 0.25em 0.5em;
+  color: #494949;
+  background: transparent;
+  border-left: solid 5px #2eb2e8;
 }
 .details p {
   display: inline-block;
