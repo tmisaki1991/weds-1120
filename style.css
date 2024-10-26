@@ -106,8 +106,7 @@ html, body {
   width: 13px;
   padding: 10px 10px 110px;
   color: #000;
-  font-size: 14px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.8rem;
   line-height: 1;
   letter-spacing: .2em;
   text-transform: uppercase;
@@ -117,20 +116,11 @@ html, body {
   overflow: hidden;
   margin: auto;
 }
-/*.scroll_down a:before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 2px;
-  height: 100px;
-  background: #ddd;
-}*/
 .scroll_down a:after {
   content: '';
   position: absolute;
   bottom: 0;
-  left: 50%;
+  left: 53%;
   width: 1px;
   height: 100px;
   background: #000;
