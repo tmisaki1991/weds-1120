@@ -179,7 +179,7 @@ html, body {
 
 /* --------- トップへ戻る (PC) --------- */
 #content {
-    position: relative;
+  position: relative;
 }
 #top-btn {
   position: fixed;
@@ -606,6 +606,14 @@ html, body {
 
 
 /* --------- トップへ戻る (SP) --------- */
+#content {
+  position: relative;
+}
+#top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
 #top-btn img {
   width: 12%;
 }
