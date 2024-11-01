@@ -318,7 +318,7 @@ html, body {
   margin: 0;
   padding: 0;
   align-items: center;
-  animation: slideShow 40s infinite linear;
+  animation: slideShow 70s infinite linear;
   list-style: none;
 }
 .slider-item {
@@ -764,6 +764,41 @@ html, body {
   width: 100%;
   height: 100%;
   filter: grayscale(100%);
+}
+
+
+/* --------- 式場スライダー (SP) --------- */
+.pic-container {
+  display: grid;
+  height: 100%;
+}
+.slider {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto 15%;
+}
+.slider-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  animation: slideShow 70s infinite linear;
+  list-style: none;
+}
+.slider-item {
+  width: 250px;
+  height: 1656px;
+  padding: 0.7%;
+}
+.slider-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0 0.5rem;
+}
+.slider:hover .slider-list {
+  animation-play-state: paused;
 }
 
 
