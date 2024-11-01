@@ -304,26 +304,27 @@ html, body {
 
 /* --------- 式場スライダー (PC) --------- */
 .pic-container {
-  background-color: #fff;
   display: grid;
   height: 100%;
 }
 .slider {
   display: flex;
-  background-color: #efefef;
   overflow: hidden;
+  width: 60%;
+  margin: 5% auto 7%;
 }
 .slider-list {
   display: flex;
   margin: 0;
   padding: 0;
   align-items: center;
-  animation: slideShow 20s infinite linear;
+  animation: slideShow 30s infinite linear;
   list-style: none;
 }
 .slider-item {
   width: 400px;
   height: 250px;
+  padding: 1%;
 }
 .slider-item img {
   width: 100%;
