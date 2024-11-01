@@ -783,7 +783,7 @@ html, body {
   margin: 0;
   padding: 0;
   align-items: center;
-  animation: slideShow 70s infinite linear;
+  animation: slideShow 100s infinite linear;
   list-style: none;
 }
 .slider-item {
