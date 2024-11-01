@@ -318,7 +318,7 @@ html, body {
   margin: 0;
   padding: 0;
   align-items: center;
-  animation: slideShow 30s infinite linear;
+  animation: slideShow 60s infinite linear;
   list-style: none;
 }
 .slider-item {
