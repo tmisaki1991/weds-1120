@@ -458,11 +458,11 @@ html, body {
  letter-spacing: 0.4em;
  font-weight: 400;
  color: #111;
- margin: 0 auto 10px;
+ margin: 0 auto 4px;
  margin-right: -0.5em;
 }
 .event-more {
- font-size: 0.9rem;
+ font-size: 0.8rem;
  line-height: 1.5;
  font-weight: 600;
  color: #111;
@@ -470,10 +470,13 @@ html, body {
 }
 .event-notes {
  font-size: 0.7rem;
- line-height: 1.5;
+ line-height: 1.7;
  font-weight: 400;
+ letter-spacing: 0.06em;
  color: #666;
+ text-align: center;
  margin: 0 auto;
+ padding-top: 4%;
 }
 
 
@@ -921,7 +924,7 @@ html, body {
  letter-spacing: 0.3em;
  font-weight: 400;
  color: #111;
- margin: 0 auto 10px;
+ margin: 0 auto 5px;
  margin-right: -0.3em;
 }
 .event-more {
@@ -937,9 +940,10 @@ html, body {
  font-weight: 400;
  letter-spacing: 0.06em;
  color: #666;
+ text-align: justify;
  width: 80%;
  margin: 0 auto;
- text-align: justify;
+ padding-top: 4%;
 }
 
 .cont-block .pic-box img {
