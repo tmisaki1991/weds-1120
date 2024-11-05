@@ -925,18 +925,20 @@ html, body {
  margin-right: -0.3em;
 }
 .event-more {
- font-size: 0.9rem;
+ font-size: 0.8rem;
  line-height: 1.6;
- font-weight: 500;
+ font-weight: 600;
  color: #111;
  margin: 0;
 }
 .event-notes {
- font-size: 0.8rem;
- line-height: 1.5;
+ font-size: 0.7rem;
+ line-height: 1.6;
  font-weight: 400;
  color: #666;
+ width: 80%;
  margin: 0 auto;
+ text-align: justify;
 }
 
 .cont-block .pic-box img {
