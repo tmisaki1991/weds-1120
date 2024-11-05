@@ -932,9 +932,10 @@ html, body {
  margin: 0;
 }
 .event-notes {
- font-size: 0.7rem;
- line-height: 1.6;
+ font-size: 0.8rem;
+ line-height: 1.7;
  font-weight: 400;
+ letter-spacing: 0.06em;
  color: #666;
  width: 80%;
  margin: 0 auto;
