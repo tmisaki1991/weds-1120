@@ -468,6 +468,14 @@ html, body {
  color: #111;
  margin: 0;
 }
+.event-notes {
+ font-size: 0.7rem;
+ line-height: 1.5;
+ font-weight: 400;
+ color: #666;
+ margin: 0 auto;
+}
+
 
 .cont-block .pic-box img {
   width: 70%;
@@ -909,7 +917,7 @@ html, body {
  margin: 0 auto;
 }
 .event {
- font-size: 1.3rem;
+ font-size: 1.35rem;
  letter-spacing: 0.3em;
  font-weight: 400;
  color: #111;
@@ -922,6 +930,13 @@ html, body {
  font-weight: 500;
  color: #111;
  margin: 0;
+}
+.event-notes {
+ font-size: 0.8rem;
+ line-height: 1.5;
+ font-weight: 400;
+ color: #666;
+ margin: 0 auto;
 }
 
 .cont-block .pic-box img {
