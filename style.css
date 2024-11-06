@@ -627,6 +627,10 @@ html, body {
 @media screen and (max-width: 600px){
 
 
+html {
+  overflow-x: hidden !important;
+}
+
 .pc {display: none;}
 .sp {display: block;}
 
