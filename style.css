@@ -349,8 +349,12 @@ html, body {
 
 
 /* --------- ウェルカム (PC) --------- */
+.welcome-anim {
+  width: 30%;
+  margin: 0 auto;
+}
 .welcome-anim.popup.is-animated {
-  animation: popup 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation: popup 1.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
  
 @keyframes popup {
