@@ -87,7 +87,7 @@ html, body {
   transform: translate(0,-10px);
 }
 &.fadein-bottom {
-  transform: translate(0,30px);
+  transform: translate(0,10px);
 }
 &.scrollin {
   opacity: 1 !important;
