@@ -84,7 +84,7 @@ html, body {
   transform: translate(30px,0);
 }
 &.fadein-up {
-  transform: translate(0,-30px);
+  transform: translate(0,-10px);
 }
 &.fadein-bottom {
   transform: translate(0,30px);
