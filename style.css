@@ -351,10 +351,11 @@ html, body {
 /* --------- ウェルカム (PC) --------- */
 .welcome-paint {
   margin: 0 auto;
+  text-align: center;
 }
 .welcome-paint img {
-  width: 20%;
-  margin: 0 auto;
+  width: 200px;
+  margin: 0 auto 15%;
 }
 
 
@@ -825,6 +826,17 @@ html, body {
 }
 .slider:hover .slider-list {
   animation-play-state: paused;
+}
+
+
+/* --------- ウェルカム (SP) --------- */
+.welcome-paint {
+  margin: 0 auto;
+  text-align: center;
+}
+.welcome-paint img {
+  width: 45%;
+  margin: 0 auto 15%;
 }
 
 
