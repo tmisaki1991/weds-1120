@@ -311,7 +311,7 @@ html, body {
   display: flex;
   overflow: hidden;
   width: 60%;
-  margin: 5% auto 7%;
+  margin: 5% auto 5%;
 }
 .slider-list {
   display: flex;
@@ -354,8 +354,8 @@ html, body {
   text-align: center;
 }
 .welcome-paint img {
-  width: 400px;
-  margin: 0 auto 8%;
+  width: 350px;
+  margin: 0 auto 6%;
 }
 
 
@@ -803,7 +803,7 @@ html, body {
   display: flex;
   overflow: hidden;
   width: 100%;
-  margin: 0 auto 15%;
+  margin: 0 auto 13%;
 }
 .slider-list {
   display: flex;
@@ -836,7 +836,7 @@ html, body {
 }
 .welcome-paint img {
   width: 45%;
-  margin: 0 auto 15%;
+  margin: 0 auto 13%;
 }
 
 
