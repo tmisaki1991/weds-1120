@@ -627,8 +627,9 @@ html, body {
 @media screen and (max-width: 600px){
 
 
-html {
+html, body {
   overflow-x: hidden !important;
+  -webkit-overflow-scrolling: touch;
 }
 
 .pc {display: none;}
