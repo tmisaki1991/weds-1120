@@ -349,14 +349,13 @@ html, body {
 
 
 /* --------- ウェルカム (PC) --------- */
-.welcome-anim {
+.welcome-anim img {
   width: 30%;
   margin: 0 auto;
 }
 .welcome-anim.popup.is-animated {
   animation: popup 1.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
- 
 @keyframes popup {
   0% {
     transform: translateY(40px) scale(0.8);
