@@ -356,7 +356,7 @@ html, body {
 .welcome-paint {
   margin: 0 auto;
   text-align: center;
-  animation: katakata 3.0s infinite ease-in-out alternate !important;
+  animation: katakata 6s infinite ease-in-out alternate !important;
 }
 .welcome-paint img {
   width: 300px;
@@ -854,7 +854,7 @@ html, body {
 .welcome-paint {
   margin: 0 auto;
   text-align: center;
-  animation:katakata 3.0s infinite ease-in-out alternate !important;
+  animation:katakata 6s infinite ease-in-out alternate !important;
 }
 .welcome-paint img {
   width: 45%;
