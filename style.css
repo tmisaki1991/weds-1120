@@ -78,12 +78,12 @@ html, body {
 &.fadein-left {
   transform: translate(-30px,0);
   transition-duration: 2.0s;
-  transition-delay: 1.5s;
+  transition-delay: 1.0s;
 }
 &.fadein-right {
   transform: translate(30px,0);
   transition-duration: 2.0s;
-  transition-delay: 1.5s;
+  transition-delay: 1.0s;
 }
 &.fadein-up {
   transform: translate(0,-10px);
