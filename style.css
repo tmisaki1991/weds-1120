@@ -356,12 +356,12 @@ html, body {
 .welcome-paint {
   margin: 0 auto;
   text-align: center;
-  animation: katakata 6s infinite ease-in-out alternate !important;
 }
 .welcome-paint img {
   width: 260px;
   margin: 0 auto 6%;
   filter: brightness(110%) contrast(110%) opacity(85%) saturate(110%);
+  animation: katakata 6s infinite ease-in-out alternate !important;
 }
 
 @keyframes katakata {
@@ -856,12 +856,12 @@ html, body {
 .welcome-paint {
   margin: 0 auto;
   text-align: center;
-  animation:katakata 6s infinite ease-in-out alternate !important;
 }
 .welcome-paint img {
   width: 45%;
   margin: 0 auto 13%;
   filter: brightness(110%) contrast(110%) opacity(85%) saturate(110%);
+  animation:katakata 6s infinite ease-in-out alternate !important;
 }
 
 
