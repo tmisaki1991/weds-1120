@@ -32,7 +32,6 @@ function randomImage ( imgArray, $target){
 };
 
 
-
 // スライドインアニメーション
 $(window).scroll(function (){
     $('.fadein').each(function(){
@@ -45,7 +44,6 @@ $(window).scroll(function (){
             }
     });
 });
-
 
 
 // トップへ戻る
