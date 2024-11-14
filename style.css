@@ -356,11 +356,11 @@ html, body {
 .welcome-paint {
   margin: 0 auto;
   text-align: center;
-  animation: katakata 6s infinite ease-in-out alternate !important;
 }
 .welcome-paint img {
   width: 300px;
   margin: 0 auto 6%;
+  animation: katakata 6s infinite ease-in-out alternate !important;
 }
 
 @keyframes katakata {
@@ -854,11 +854,11 @@ html, body {
 .welcome-paint {
   margin: 0 auto;
   text-align: center;
-  animation:katakata 6s infinite ease-in-out alternate !important;
 }
 .welcome-paint img {
   width: 45%;
   margin: 0 auto 13%;
+  animation:katakata 6s infinite ease-in-out alternate !important;
 }
 
 
