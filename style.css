@@ -804,7 +804,7 @@ html, body {
   max-width: 1000px;
   width: 85%;
   height: auto;
-  margin: 30px auto 30px;
+  margin: 30px auto 40px;
 }
 .map-ceremony iframe {
   position: absolute;
@@ -825,7 +825,7 @@ html, body {
   display: flex;
   overflow: hidden;
   width: 100%;
-  margin: 0 auto 6%;
+  margin: 0 auto 8%;
 }
 .slider-list {
   display: flex;
