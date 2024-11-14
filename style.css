@@ -294,7 +294,7 @@ html, body {
   max-width: 1000px;
   width: 30%;
   height: auto;
-  margin: 30px auto 60px;
+  margin: 30px auto 40px;
 }
 .map-ceremony iframe {
   position: absolute;
@@ -315,7 +315,7 @@ html, body {
   display: flex;
   overflow: hidden;
   width: 60%;
-  margin: 5% auto 5%;
+  margin: 0 auto 4%;
 }
 .slider-list {
   display: flex;
@@ -358,7 +358,7 @@ html, body {
   text-align: center;
 }
 .welcome-paint img {
-  width: 300px;
+  width: 260px;
   margin: 0 auto 6%;
   animation: katakata 6s infinite ease-in-out alternate !important;
 }
